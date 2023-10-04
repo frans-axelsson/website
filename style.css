@@ -1,0 +1,119 @@
+/* CSS for h1 */
+h1 {
+    color: #272829;
+    font-size: 30px;
+    font-family: Roboto;
+}
+
+/* CSS for h2 elements */
+h2 {
+    color: #FF6969;
+    font-size: 25px;
+    font-family: Helvetica Neue;
+}
+
+/* CSS for body element */
+body {
+    color: #252B48; /* Text color */
+    background-color: #F8F0E5; /* Background color */
+    background-image: url(images/background.jpg);
+    font-family: Georgia, serif;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    text-align: justify;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* CSS for h1, h2, and h3 elements */
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+/* CSS for links */
+a {
+    color: #12486B;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Custom design with class */
+
+/* CSS for the .container class */
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+@media (max-width: 960px) {
+    .container {
+        width: 700px;
+    }   
+}      
+@media (max-width: 720px) {
+    .container {
+        width: 500px;
+    }   
+}
+@media (max-width: 540px) {
+    .container {
+        width: 300px;
+    }   
+}
+
+/* CSS for the .card-white class */
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+/* CSS for the .img-circle class */
+.img-circle {
+    border-radius: 50%;
+    width: 150px;
+}
+
+/* CSS for the .btn-blue class */
+.btn-blue {
+    background-color: #6B72E1;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+.btn-blue:hover {
+    background-color: black;
+    color: white;
+}
+
+/*CSS for the .list-inline class and its list items */
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+.list-inline i {
+    font-size: 50px;
+    color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+    font-size: 50px;
+    color: black;
+}
+
+/* CSS element with id="introduction" and its descendant paragraphs */
+#introduction p {
+    margin-bottom: 40px;
+}
+
+
+
+
